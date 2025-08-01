@@ -5,7 +5,7 @@ I used Visual Studio to do the cleaning using a Jyupiter file, pandas and numpy
 
 The steps I undertook to clean it are:
 
-1. I replaced all 'UNKNOWN' & 'ERROR' to "<NA?" values
+1. I replaced all 'UNKNOWN' & 'ERROR' to "<NA>" values
 2. Changed column data type since all of them where 'objects', some columns had to be changed to floats and date
 3. I converted all the "<NA>" values to "Nan" because when trying to change certain columns to float, I would get an error.
 4. The 'Total Spent' columns had values that where "NaN". To fix that issue, I just had to multiply the 'Quanity' by the 'Price Per Unit'.
