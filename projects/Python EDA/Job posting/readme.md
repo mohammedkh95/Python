@@ -1,1 +1,1 @@
-This is another project where soley focused on data pre-processing only. 
+This is another project where I soley focused on data pre-processing only. 
